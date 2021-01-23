@@ -124,7 +124,18 @@ height: 20px; }
         .navi-bar{margin-right: 50px;
             display: flex;}
             .navi:last-child{margin: 0px;}
+.link::after{content: '';
+display: block;
+width: 100%;
+background: #2196F3;
+height: 2px;
+position: absolute;
+bottom: 0;
+display: none;
+}
+.link:hover::after{display: block;}
         .link {
+            position: relative;
             display: flex;
              display: block;
             padding-top: 32px;
