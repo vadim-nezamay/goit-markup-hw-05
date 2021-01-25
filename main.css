@@ -440,7 +440,9 @@ display: flex; }
 
 .last-page{position: relative; overflow: hidden;}
 
-.portfolio-overlay:hover {transform: translateY(0);}
+.last-page:hover .portfolio-overlay {
+    transform: translateY(0);
+}
 
 
 .portfolio-overlay{
@@ -454,8 +456,10 @@ background: rgba(33, 150, 243, 0.9);
 transform: translateY(100%);
 transition: transform 250ms linear;
 }
-.texno{padding-left: 24px;
-padding-top: 63px;font-family: Roboto;
+.texno{
+    justify-content: center;
+    padding: 63 px 24px;
+     font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 font-size: 18px;
