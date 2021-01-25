@@ -458,7 +458,10 @@ transition: transform 250ms linear;
 }
 .texno{
     justify-content: center;
-    padding: 63 px 24px;
+    padding-top: 63px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 63px;
      font-family: Roboto;
 font-style: normal;
 font-weight: normal;
