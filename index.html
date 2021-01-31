@@ -31,19 +31,26 @@
                     <div class="navi-bar"><a href="./portfolio.html" class="link">Портфолио</a></div>
                     <div class="navi-bar"><a href="" class="link">Контакты</a></div>
 
-                    <div class="mobi-mail">
-                        <button class="tel-button"><svg class="button-smart">
-                                <use href="./imege/symbol-defs.svg#icon-envelope"></use>
-                            </svg></button>
-
-                        <div class="last-items"><a class="items" href="mailto:">info@example.com</a></div>
+                    <ul class="mobi-mail">
 
 
-                        <button class="tel-button"><svg class="button-smart">
-                                <use href="./imege/symbol-defs.svg#icon-smartphone"></use>
-                            </svg></button>
-                        <div class="last-items"><a class="items" href="tel:+"> +38 099 111 11 11</a></div>
-                    </div>
+                        <li class="last-items">
+                            <a class="items" href="mailto:info@example.com"><svg class="button-smart" width="16px"
+                                    height="12px">
+                                    <use href="./imege/symbol-defs.svg#icon-envelope"></use>
+                                </svg>info@example.com
+                            </a>
+                        </li>
+
+                        <li class="last-items">
+                            <a class="items" href="tel:+38 099 111 11 11"><svg class="button-smart" width="10px"
+                                    height="16px">
+                                    <use href="./imege/symbol-defs.svg#icon-smartphone"></use>
+                                </svg> +38 099 111 11 11
+                            </a>
+                        </li>
+
+                    </ul>
                 </div>
             </div>
         </nav>
@@ -51,18 +58,18 @@
     </header>
 
     <main>
-        <div class="container text">
+        <div class="text">
             <section class="overlay">
 
                 <h1 class="hiro-title">
                     ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА
                 </h1>
                 <div class="main-hiro ">
-                   
-                        
+
+
                     <body>
-                       
-                    <button class="button-primery" data-modal-open>Заказать услугу </button>
+
+                        <button class="button-primery" data-modal-open>Заказать услугу </button>
                         <div class="backdrop is-hidden" data-modal>
                             <div class="modal">
                                 <p>
@@ -70,20 +77,20 @@
                                     Quae, ducimus! Animi quae laboriosam et ratione eveniet
                                     ipsum cupiditate quisquam ea.
                                 </p>
-                    
+
                                 <button type="button" data-modal-close>закрыть</button>
                             </div>
                         </div>
                         <script src="./modal.js"></script>
                     </body>
-                       
-                  
-                    
-                   
-    
 
-                  
-                    
+
+
+
+
+
+
+
                 </div>
             </section>
         </div>
@@ -97,7 +104,7 @@
                                     href="./imege/symbol-defs.svg#icon-antenna-1"></use>
                             </svg></a>
 
-                        <h2>ВНИМАНИЕ К ДЕТАЛЯМ </h2>
+                        <h2 class="wpt">ВНИМАНИЕ К ДЕТАЛЯМ </h2>
 
                         <p width="270" height="75" class="paragraph">
                             Идейные соображения, а также начало повседневной работы по формированию позиции.
@@ -108,7 +115,7 @@
                                 <use x="100" y="25" width="65" height="70" href="./imege/symbol-defs.svg#icon-clock-1">
                                 </use>
                             </svg></a>
-                        <h2>
+                        <h2 class="wpt">
                             ПУНКТУАЛЬНОСТЬ
                         </h2>
 
@@ -121,7 +128,7 @@
                                 <use x="100" y="25" width="65" height="70"
                                     href="./imege/symbol-defs.svg#icon-diagram-1"></use>
                             </svg></a>
-                        <h2>
+                        <h2 class="wpt">
                             ПЛАНИРОВАНИЕ
                         </h2>
 
@@ -135,7 +142,7 @@
                                 <use x="100" y="25" width="65" height="70"
                                     href="./imege/symbol-defs.svg#icon-astronaut-1"></use>
                             </svg></a>
-                        <h2>
+                        <h2 class="wpt">
                             СОВРЕМЕННЫЕ ТЕХНОЛОГИИ
                         </h2>
 
@@ -148,22 +155,26 @@
             </div>
         </section>
         <section>
-
-            <h1 class="lessons">Чем мы занимаемся</h1>
             <div class="container">
-                <ul class="affair">
-                    <li class="comm"><img src="./imege/Чем_мы_занимаемся_1.png" width="370" height="294" alt="">
-                    <a href="" class="decor">Десктопные приложения</a></li>
-                    
-                    <li class="comm"><img src="./imege/Чем_мы_занимаемся_2.png" width="370" height="294" alt="">
-                    <a href="" class="decor">Мобильные приложения</a></li>
-                    
-                    <li class="comm"><img src="./imege/Чем_мы_занимаемся_3.png" width="370" height="294" alt="">
-                    <a href="" class="decor">Дизайнерские решения</a></li>
-                    
-                </ul>
-            </div>
+                <div class="less">
+                    <h1 class="lessons">Чем мы занимаемся</h1>
 
+                    <ul class="affair">
+                        <li class="comm"><img src="./imege/Чем_мы_занимаемся_1.png" width="370" height="294" alt="">
+                            <a href="" class="decor">Десктопные приложения</a>
+                        </li>
+
+                        <li class="comm"><img src="./imege/Чем_мы_занимаемся_2.png" width="370" height="294" alt="">
+                            <a href="" class="decor">Мобильные приложения</a>
+                        </li>
+
+                        <li class="comm"><img src="./imege/Чем_мы_занимаемся_3.png" width="370" height="294" alt="">
+                            <a href="" class="decor">Дизайнерские решения</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
         </section>
     </main>
     <section class=" main-boxi">
@@ -178,48 +189,49 @@
                     <div class="rov">
                         <h3>Игорь Демьяненко</h3>
                         <p class=" team">Product Designer</p>
+
                     </div>
-                    <div class="it-smart">
-                        <button class="button"><svg class="button-smart">
+                    <div class="iti">
+                        <a href="" class="smart-link"><svg class="smart-icon" width="20px" height="20px">
                                 <use href="./imege/symbol-defs.svg#icon-instagram-2"></use>
-                            </svg></button>
+                            </svg></a>
 
-                        <button class="button"><svg class="button-smart">
+                        <a href="" class="smart-link"><svg class="smart-icon" width="20px" height="20px">
                                 <use href="./imege/symbol-defs.svg#icon-twitter-2"></use>
-                            </svg></button>
+                            </svg></a>
 
-                        <button class="button"><svg class="button-smart">
+                        <a href="" class="smart-link"><svg class="smart-icon" width="20px" height="20px">
                                 <use href="./imege/symbol-defs.svg#icon-facebook-2"></use>
-                            </svg></button>
+                            </svg></a>
 
-                        <button class="button"><svg class="button-smart">
+                        <a href="" class="smart-link"><svg class="smart-icon" width="20px" height="20px">
                                 <use href="./imege/symbol-defs.svg#icon-linkedin-2"></use>
-                            </svg></button>
-                    </div>
+                            </svg></a>
 
-                </li>
+                    </div>
                 <li class="main-style">
                     <img src="./imege/Ольга_Репина_2.jpg" width="270" height="260" alt="">
                     <div class="rov">
                         <h3>Ольга Репина</h3>
                         <p class=" team">Frontend Developer</p>
                     </div>
-                    <div class="it-smart">
-                        <button class="button"><svg class="button-smart">
+                    <div class="iti">
+                        <a href="" class="smart-link"><svg class="smart-icon" width="20px" height="20px">
                                 <use href="./imege/symbol-defs.svg#icon-instagram-2"></use>
-                            </svg></button>
+                            </svg></a>
 
-                        <button class="button"><svg class="button-smart">
+                        <a href="" class="smart-link"><svg class="smart-icon" width="20px" height="20px">
                                 <use href="./imege/symbol-defs.svg#icon-twitter-2"></use>
-                            </svg></button>
+                            </svg></a>
 
-                        <button class="button"><svg class="button-smart">
+                        <a href="" class="smart-link"><svg class="smart-icon" width="20px" height="20px">
                                 <use href="./imege/symbol-defs.svg#icon-facebook-2"></use>
-                            </svg></button>
+                            </svg></a>
 
-                        <button class="button"><svg class="button-smart">
+                        <a href="" class="smart-link"><svg class="smart-icon" width="20px" height="20px">
                                 <use href="./imege/symbol-defs.svg#icon-linkedin-2"></use>
-                            </svg></button>
+                            </svg></a>
+
                     </div>
                 </li>
                 <li class="main-style">
@@ -228,22 +240,23 @@
                         <h3>Николай Тарасов</h3>
                         <p class=" team">Marketing</p>
                     </div>
-                    <div class="it-smart">
-                        <button class="button"><svg class="button-smart">
+                    <div class="iti">
+                        <a href="" class="smart-link"><svg class="smart-icon" width="20px" height="20px">
                                 <use href="./imege/symbol-defs.svg#icon-instagram-2"></use>
-                            </svg></button>
+                            </svg></a>
 
-                        <button class="button"><svg class="button-smart">
+                        <a href="" class="smart-link"><svg class="smart-icon" width="20px" height="20px">
                                 <use href="./imege/symbol-defs.svg#icon-twitter-2"></use>
-                            </svg></button>
+                            </svg></a>
 
-                        <button class="button"><svg class="button-smart">
+                        <a href="" class="smart-link"><svg class="smart-icon" width="20px" height="20px">
                                 <use href="./imege/symbol-defs.svg#icon-facebook-2"></use>
-                            </svg></button>
+                            </svg></a>
 
-                        <button class="button"><svg class="button-smart">
+                        <a href="" class="smart-link"><svg class="smart-icon" width="20px" height="20px">
                                 <use href="./imege/symbol-defs.svg#icon-linkedin-2"></use>
-                            </svg></button>
+                            </svg></a>
+
                     </div>
                 </li>
                 <li class="main-style">
@@ -252,22 +265,23 @@
                         <h3>Михаил Ермаков</h3>
                         <p class=" team">UI Designer</p>
                     </div>
-                    <div class="it-smart">
-                        <button class="button"><svg class="button-smart">
+                    <div class="iti">
+                        <a href="" class="smart-link"><svg class="smart-icon" width="20px" height="20px">
                                 <use href="./imege/symbol-defs.svg#icon-instagram-2"></use>
-                            </svg></button>
+                            </svg></a>
 
-                        <button class="button"><svg class="button-smart">
+                        <a href="" class="smart-link"><svg class="smart-icon" width="20px" height="20px">
                                 <use href="./imege/symbol-defs.svg#icon-twitter-2"></use>
-                            </svg></button>
+                            </svg></a>
 
-                        <button class="button"><svg class="button-smart">
+                        <a href="" class="smart-link"><svg class="smart-icon" width="20px" height="20px">
                                 <use href="./imege/symbol-defs.svg#icon-facebook-2"></use>
-                            </svg></button>
+                            </svg></a>
 
-                        <button class="button"><svg class="button-smart">
+                        <a href="" class="smart-link"><svg class="smart-icon" width="20px" height="20px">
                                 <use href="./imege/symbol-defs.svg#icon-linkedin-2"></use>
-                            </svg></button>
+                            </svg></a>
+
                     </div>
                 </li>
             </ul>
@@ -346,7 +360,7 @@
 
 
                         <li class="add">
-                            <address>г. Киев, пр-т Леси Украинки, 26</address>
+                            <address class="text-add">г. Киев, пр-т Леси Украинки, 26</address>
                         </li>
                         <li><a class="mail" href="mailto:">info@example.com</a></li>
                         <li> <a class="mobile" href="tel:+"> +38 099 111 11 11</a></li>
@@ -361,8 +375,6 @@
 
         </footer>
     </section>
-
-    
 </body>
 
 </html>
