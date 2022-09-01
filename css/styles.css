@@ -134,6 +134,13 @@ padding-bottom: 25px;
   padding-top: 32px;
   padding-bottom: 32px;
 }
+.icon-envelope{
+  margin-right: 10px;
+  width: 16px;
+  height: 12px;
+  fill: currentColor;
+  
+}
 .contacts-link {
   font-size: 14px;
   color: var(--primary-text-color);
@@ -192,7 +199,17 @@ margin-left: 50px;
   color: var(--title-text-color);
   text-transform: uppercase;
 }
-.my-features {display: flex;column-gap: 30px;}
+.icons-features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+background: #F5F4FA;
+border-radius: 4px;
+height: 120px;
+margin-bottom: 30px;}
+.my-features {
+  display: flex;
+  column-gap: 30px;}
 .features-item {width: 270px;}
 .features-text {
   margin-top: 10px;
@@ -266,7 +283,63 @@ font-weight: 400;
 color: #757575;
 letter-spacing: 0.03em;
 }
+.icon-list {
+  display: flex;
+  margin-top: 16px;
+  gap: 10px;
+  justify-content: center;
+  text-align: center;
+}
 
+.icon-link {
+  display: flex;
+  display: block;
+  align-items: center;
+  justify-content: center;
+   border-radius: 50%;
+   color: #AFB1B8;
+ width: 44px;
+  height: 44px; 
+}
+.icon-link:hover,
+.icon-link:focus {
+  color:#FFFFFF;
+  background-color: #2196F3;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.icon-network {
+
+ width: 20px;
+  height: 20px;
+  fill: currentColor;
+
+}
+/*ПОСТІЙНІ КЛІЄНТИ*/
+.clients-list{
+  display: flex;
+gap: 30px;
+justify-content: center;
+ width: 100%;
+height: 100%;
+}
+.itemi{
+ width: 170px;
+height: 92px;
+border: 1px solid #AFB1B8;
+border-radius: 4px;
+justify-content: center;
+display: block;
+align-items: center;
+
+}
+.client-icons{
+
+
+}
+.client-link{
+ width: 100%;
+height: 100%;
+}
 /*Кнопки*/
 
 .bt{text-align: center;}
