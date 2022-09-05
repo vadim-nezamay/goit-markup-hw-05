@@ -78,6 +78,7 @@ img{
 
 }
 .header-logo {
+  align-items: center;
 display: block; 
 padding-top: 24px;
 padding-bottom: 25px;
@@ -86,7 +87,7 @@ padding-bottom: 25px;
   font-family: 'Raleway';
   letter-spacing: 0.03em;
   color: var(--acccent-color);
-  line-height: calc(24 / 14);
+  line-height: calc(31 / 26);
 }
 .header-logo .accent {
   color: var(--black-color);
@@ -130,6 +131,7 @@ padding-bottom: 25px;
   gap: 50px;
 }
 .up{
+  align-items: center;
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -142,6 +144,7 @@ padding-bottom: 25px;
   
 }
 .contacts-link {
+  align-items: center;
   font-size: 14px;
   color: var(--primary-text-color);
   letter-spacing: 0.02em;
@@ -165,7 +168,8 @@ margin-left: 50px;
 }
 /*Структура діяльності*/
 .hero {
-
+    max-width: 1600px;
+    min-height: 600px;
   padding: 200px 0;
   background: var(--footer-bg-color);
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../svg/hero-bg.jpg);
@@ -226,7 +230,7 @@ margin-bottom: 30px;}
   column-gap: 30px;
 }
 .doing {
-  
+ padding-top: 0;
  
 }
 .team {
@@ -302,8 +306,8 @@ letter-spacing: 0.03em;
   justify-content: center;
    border-radius: 50%;
    color: #AFB1B8;
- width: 44px;
-  height: 44px; 
+width: 100%;
+height: 100%;
 }
 .icon-link:hover,
 .icon-link:focus {
@@ -339,7 +343,7 @@ display: block;
 align-items: center;
 
 }
-.itemi:hover{
+.itemi:hover, .itemi:focus{
   border: 1px solid #2196F3;
 }
 .client-icons{
@@ -355,7 +359,7 @@ height: 100%;
 fill: currentColor;
 color: #AFB1B8;
 }
-.client-link:hover{
+.client-link:hover,.client-link:focus{
   color: #2196F3;
 }
 /*Кнопки*/
@@ -531,7 +535,7 @@ color: #FFFFFF;
   .network-link-company{
     fill: #FFFFFF;
   }
-.network-link-company:hover{
+.network-link-company:hover,.network-link-company:focus{
     background: #2196F3;
     cursor: pointer;
   }
@@ -539,4 +543,6 @@ color: #FFFFFF;
    display: flex;
   align-items: baseline;}
   .item{
+    width: 44px;
+  height: 44px;
   }
