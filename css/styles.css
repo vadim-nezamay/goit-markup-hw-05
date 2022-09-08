@@ -136,6 +136,10 @@ padding-bottom: 25px;
   padding-top: 32px;
   padding-bottom: 32px;
 }
+.up:focus{border-radius: 4px; border: 1px solid #2196F3;
+
+}
+.user:focus{ }
 .icon-envelope{
   margin-right: 10px;
   width: 16px;
@@ -144,6 +148,7 @@ padding-bottom: 25px;
   
 }
 .contacts-link {
+  display: flex;
   align-items: center;
   font-size: 14px;
   color: var(--primary-text-color);
@@ -167,7 +172,7 @@ padding-bottom: 25px;
 margin-left: 50px;
 }
 /*Структура діяльності*/
-.hero {
+.hero {margin: 0 auto;
     max-width: 1600px;
     min-height: 600px;
   padding: 200px 0;
@@ -201,6 +206,7 @@ margin-left: 50px;
   letter-spacing: 0.06em;
 }
 .features-title {
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -220,7 +226,7 @@ margin-bottom: 30px;}
   column-gap: 30px;}
 .features-item {width: 270px;}
 .features-text {
-  margin-top: 10px;
+ margin-top: 0;
   margin-bottom: 0px;
   line-height: calc(24 / 14);
 }
@@ -301,7 +307,7 @@ letter-spacing: 0.03em;
 
 .icon-link {
   display: flex;
-  display: block;
+
   align-items: center;
   justify-content: center;
    border-radius: 50%;
@@ -343,6 +349,10 @@ display: block;
 align-items: center;
 
 }
+.itemi:focus{
+
+}
+
 .itemi:hover, .itemi:focus{
   border: 1px solid #2196F3;
 }
@@ -435,6 +445,7 @@ padding-bottom: 60px;
 padding-top: 60px;
 }
 .footer-address{
+  margin-top: 20px;
 font-style: normal;
 }
 .add-link{
@@ -470,6 +481,9 @@ gap: 30px;
 width: 100%;    
 }
 .my-wrap{
+}
+.seck-wrap {
+  display: block;
 }
 .wrap-img{
 padding-left: 24px;
