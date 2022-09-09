@@ -117,8 +117,7 @@ padding-bottom: 25px;
   letter-spacing: 0.02em;
   line-height: calc(16 / 14);
 }
-.nav a:hover,
-.nav:focus {
+.nav a:hover,.nav:focus {
   color: var(--acccent-color);
 }
 .current{
@@ -130,6 +129,9 @@ padding-bottom: 25px;
   align-items: center;
   gap: 50px;
 }
+.user .up:focus{
+  color: #2196F3;;
+}
 .up{
   align-items: center;
   display: block;
@@ -139,7 +141,7 @@ padding-bottom: 25px;
 .up:focus{border-radius: 4px; border: 1px solid #2196F3;
 
 }
-.user:focus{ }
+.user:focus{ border-radius: 4px; border: 1px solid #2196F3;}
 .icon-envelope{
   margin-right: 10px;
   width: 16px;
@@ -338,6 +340,10 @@ justify-content: center;
 height: 100%;
 
 }
+.clients-list .itemi:focus{
+  border: 1px solid #2196F3;
+}
+
 .itemi{
  
  width: 170px;
@@ -349,9 +355,7 @@ display: block;
 align-items: center;
 
 }
-.itemi:focus{
 
-}
 
 .itemi:hover, .itemi:focus{
   border: 1px solid #2196F3;
@@ -359,6 +363,10 @@ align-items: center;
 .client-icons{
  
 
+}
+.client-link:hover,.client-link:focus{
+  color: #2196F3;
+  
 }
 .client-link{
   display: inline-flex;
@@ -369,9 +377,7 @@ height: 100%;
 fill: currentColor;
 color: #AFB1B8;
 }
-.client-link:hover,.client-link:focus{
-  color: #2196F3;
-}
+
 /*Кнопки*/
 
 .bt{text-align: center;}
