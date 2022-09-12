@@ -58,7 +58,8 @@
             <div class="container bt">
                 <h1 class="hiro-title">Ефективні рішення для вашого бізнесу</h1>
 
-                <button type="button" class="hero-btn">Замовити послугу</button>
+                <button data-modal-open type="button" class="hero-btn">Замовити послугу</button>
+                
             </div>
 
         </section>
@@ -117,9 +118,42 @@
                 <!--Чим ми займаємося-->
                 <h2 class="section-title"> Чим ми займаємося</h2>
                 <ul class="doing-list list">
-                    <li><img src="./images/img(1).jpg" alt="Macbook и клавиатура на столе" width="370" /></li>
-                    <li> <img src="./images/img(2).jpg" alt="Смартфон и ноутбук" width="370" /></li>
-                    <li> <img src="./images/img(3).jpg" alt="Выбор цвета на дисплее в Macbook" width="370" /></li>
+                    
+                    <li>
+                       <div class="thumb">
+                        <img src="./images/img(1).jpg" alt="Macbook и клавиатура на столе" width="370" />
+                        <div class="work-thumb">
+                        <h3 >Десктопні додатки</h3>
+                    </div>
+                       </div>
+                    
+                    </li>
+                    
+                   
+                    
+                    <li>
+                        <div class="thumb">
+                            <img src="./images/img(2).jpg" alt="Смартфон и ноутбук" width="370" />
+                            <div class="work-thumb">
+                            <h3>Мобільні додатки</h3>
+                        </div> 
+                        </div>
+                  
+                    </li>
+                    
+                    
+                    
+                    <li>
+                       <div class="thumb">
+                        <img src="./images/img(3).jpg" alt="Выбор цвета на дисплее в Macbook" width="370" />
+                        <div class="work-thumb">
+                        <h3>Дизайнерськішення</h3>
+                       </div>
+                       </li>
+                       </div>
+                   
+                    
+                    
                 </ul>
             </div>
 
@@ -402,6 +436,16 @@
     </div>
         </footer>
     </main>
+    <div data-modal class="backdrop is-hidden">
+        <div class="modal">
+            <button data-modal-close class="modal-button">
+                <svg class="icon-close" width="18" height="18">
+                    <use href="./svg/Form bg.svg"></use>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>
 
 </body>
 
